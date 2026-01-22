@@ -51,13 +51,11 @@ let freq = {}
 for (let i = 0; i < elem.length; i++) {
     let num = elem[i]//current number
     if (freq[num]) {
-        freq[num] += 1//increment count
+        freq[num] += 1//increment count       
     } else {
         freq[num] = 1//first occurrence
     }  
 }
-console.log(freq
-
-);
+console.log(freq);
 
 
