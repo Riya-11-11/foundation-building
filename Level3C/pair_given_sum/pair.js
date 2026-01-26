@@ -2,7 +2,7 @@
 // → [2,7]
 
 let arr = [2,7,11,15]
-let target = 17
+let target = 9
 let result = []
 
 for (let i = 0; i < arr.length; i++) {
