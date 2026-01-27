@@ -2,7 +2,7 @@
 // "I love learning Javascript daily" → "Javascript"
 // You know this one; do it without looking at previous code.
 
-let sentence = "I love learning Javascript daily.";
+let sentence = "I love learning Javascript daily";
 let spllitedStr = sentence.split(" ");
 let len = spllitedStr.length;
 let longestWord = spllitedStr[0];
