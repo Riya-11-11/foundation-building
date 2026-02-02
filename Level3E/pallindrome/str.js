@@ -4,12 +4,23 @@
 
 let str = "Step on no pets";
 let newStr = str.toLowerCase();
-let len = newStr.length;
-let result = "";
 
-for (let i = len - 1; i >= 0; i--) {
-  let word = newStr[i];
-  result += word;
+//remove space
+let cleanStr = ""
+for (const ch of newStr) {
+    if (ch !== " ") {
+        cleanStr += newStr
+    }
 }
 
-console.log(result);
+//reverse
+let reversed = ""
+for (let i = cleanStr.length-1; i >= 0; i--) {
+    reversed += cleanStr[i]  
+}
+
+if (cleanStr == reversed) {
+    console.log(true);
+} else {
+    console.log(false); 
+}
