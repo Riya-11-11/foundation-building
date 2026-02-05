@@ -16,4 +16,3 @@ num = sum
 
 console.log(num);
 
-
