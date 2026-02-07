@@ -10,6 +10,7 @@ let isFound = false;
 for (let i = 0; i < arr.length; i++) {
   if (target === arr[i]) {
     isFound = true;
+    break;
   }
 }
 
